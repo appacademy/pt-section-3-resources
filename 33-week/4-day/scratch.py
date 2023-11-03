@@ -100,9 +100,9 @@ numbers = [25, 5, 15]
 # print(25 % 5)
 # print(15 % 5)
 # numbers.sort(key=lambda ele: ele % 5)
-new_list = sorted(numbers)
-print(numbers)
-print(new_list)
+# new_list = sorted(numbers)
+# print(numbers)
+# print(new_list)
 
 
 # numbers.sort()
@@ -132,3 +132,8 @@ print(new_list)
 # #     print(test, name, next_param, args, kwargs)
 
 # # hello_world("hi", "hello", "test", "Test", 1, 2, hello = "world")
+
+
+
+
+
