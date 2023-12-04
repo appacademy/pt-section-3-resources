@@ -19,7 +19,7 @@
     - Ensure your route paths are spelled correctly.
     - Ensure you've installed all of the required packages.
     - Ensure you've used double quotes in your Form Template just like we did on the PA:
-        - `<form method="post" action="/simple-form">`
+        - `<form method="post" action="/path_to_your_post_route">`
     - If you're completely and totally stuck, consider recloning the Assessment since you may have setup your app incorrectly.
         - Your app shouldn't vary significantly from the PA so you may just have a sneaky typo.
 
