@@ -13,7 +13,7 @@
         - https://docs.sqlalchemy.org/en/20/core/type_basics.html#generic-camelcase-types
 - For debugging:
     - Try migrating your database with alembic, and running your server locally to interact with your site.
-    - Remember you need to add a Secret_Key to your config if you're trying to run your app locally.
+    - Remember you need to add a SECRET_KEY to your config if you're trying to run your app locally.
     - Ensure your route paths are spelled correctly.
     - Make sure your app's configuration and setup align with what we've done previously.
     - Ensure you've installed all of the required packages.
