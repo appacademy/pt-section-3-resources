@@ -5,7 +5,7 @@
         - Check the spelling for your Model's Column Names.
         - Check the spelling for your Form's Field Name and Label.
     - Ensure you've defined any necessary Form validations and Model constraints.
-        - [DataRequired()], nullable=True, etc.
+        - [DataRequired()], `nullable=True`, etc.
     - Check the docs if your not sure what field you should use in your Forms.
         - https://wtforms.readthedocs.io/en/2.3.x/fields/#basic-fields
         - Reference your PA, Order Up, and Package Tracker to see what we've done before.
@@ -14,7 +14,7 @@
 
 - For debugging:
     - Try migrating your database with alembic, and running your server locally to interact with your site.
-        - Remember you need to add a SECRET_KEY to your config if you're trying to run your app locally.
+        - Remember you need to add a `SECRET_KEY` to your config if you're trying to run your app locally.
         - Make sure your app's configuration and setup align with what we've done previously.
     - Ensure your route paths are spelled correctly.
     - Ensure you've installed all of the required packages.
