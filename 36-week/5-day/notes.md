@@ -21,4 +21,4 @@
         - `<form method="post" action="/simple-form">`
 - If you're completely and totally stuck, consider recloning the Assessment since you may have setup your app incorrectly.
     - Your app shouldn't vary significantly from the PA so you may just have a sneaky typo.
-- Remember: You have the entire class period for the Assessment.  Take your time and don't feel rushed!
+- *Remember*: You have the entire class period for the Assessment.  Take your time and don't feel rushed!
