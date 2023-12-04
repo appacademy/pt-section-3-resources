@@ -3,7 +3,7 @@
 - Take your time filling out your model and form classes.
     - Ensure all attributes are spelled correctly.
         - Check the spelling for your Model's Column names.
-        - Check the spelling foryour Form's Field name, Label.
+        - Check the spelling for your Form's Field name and Label.
     - Ensure you've defined any necessary Form validations and Model constraints.
         - [DataRequired()], nullable=True, ext.
     - Check the docs if your not sure what field you should use in your Forms.
