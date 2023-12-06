@@ -2,7 +2,7 @@
 
 ## What To Expect?
 
-- Over the next two weeks we will work on planning out this project and begin coding on Monday 11/13/2023.
+- Over the next two weeks we will work on planning out this project and begin coding on Monday 01/08/2024.
 - You will have 2 full weeks of working with your peers to create and deploy a project with 4 full crudable features.
 - This project is aimed to help build your collaboration skill by creating a full stack project with your peers.
 - You will be paired up into a group for this project (not optional).
@@ -68,7 +68,7 @@
 
 - Choose a Group Name
 - Choose a Group Project from our available list
-- [Available Projects To Clone](https://open.appacademy.io/learn/js-py---pt-feb-2023-online/week-37---docker/project-planning)
+- [Available Projects To Clone](https://open.appacademy.io/learn/js-py---pt-mar-2023-online/week-37---docker/project-planning)
 - Create an Empty Public Repo WITHOUT a readme
 - Invite every team member and project managers to be collaborators on this repo
 - Inform your project managers of your group name, project choice, and repo link by the end of class
