@@ -4,15 +4,14 @@ class Enemy:
         self.attack = attack
         self.level = level
 
-    def enemy_stats(self):
+    def creature_stats_dict(self):
         return {
             "hp": self.hp,
             "attack": self.attack,
             "level": self.level
         }
 
+new_creature = Enemy(9, 5, 10)
 
-new_enemy = Enemy(5, 3)
-
-# print(new_enemy)
-# print(new_enemy.enemy_stats())
+# print(new_creature)
+# print(new_creature.creature_stats_dict())
