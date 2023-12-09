@@ -2,6 +2,68 @@
 Built in Functions
 Iterables
 
+- Args & Kwargs
+- Built in Functions
+
+
+## Understanding `*args`
+
+### What is `*args`?
+- `*args` allows a function to accept any number of positional arguments (arguments that are not named).
+- It is used in function definitions.
+- The arguments passed through `*args` are treated as a tuple in the function.
+
+### How to Use `*args`:
+```python
+def function_with_args(*args):
+    for arg in args:
+        print(arg)
+
+function_with_args(1, 2, 3, 'a', 'b')
+```
+
+### When to Use `*args`:
+- When the number of positional arguments is unknown or may vary.
+- Useful in functions that need to be flexible with input parameters.
+
+## Understanding `**kwargs`
+
+### What is `**kwargs`?
+- `**kwargs` allows a function to accept any number of keyword arguments (arguments provided with a name and value).
+- It is used in function definitions.
+- The keyword arguments passed through `**kwargs` are treated as a dictionary in the function.
+
+### How to Use `**kwargs`:
+```python
+def function_with_kwargs(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+function_with_kwargs(name="Alice", age=25)
+```
+
+### When to Use `**kwargs`:
+- When you need to handle named arguments dynamically.
+- Useful in functions where options or configurations are passed as arguments.
+
+## Combining `*args` and `**kwargs`
+
+You can use both `*args` and `**kwargs` in the same function to handle a flexible number of both positional and keyword arguments.
+
+```python
+def combined_function(*args, **kwargs):
+    for arg in args:
+        print(arg)
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+combined_function(1, 2, 'a', name="Bob", age=30)
+```
+
+## Best Practices
+- Stick to using `args` and `kwargs` as the parameter names for clarity and consistency with the Python community.
+- They should be used when the number of arguments is not known beforehand, or to provide flexibility in function calls.
+
 ## Built-in functions
 
 Docs link:
