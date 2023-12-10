@@ -2,7 +2,7 @@
 
 ## What To Expect?
 
-- Over the next two weeks we will work on planning out this project and begin coding on Monday 02/18/2024.
+- Over the next two weeks we will work on planning out this project and begin coding on Monday 12/18/2023.
 - You will have 2 full weeks of working with your peers to create and deploy a project with 4 full crudable features.
 - This project is aimed to help build your collaboration skill by creating a full stack project with your peers.
 - You will be paired up into a group for this project (not optional).
