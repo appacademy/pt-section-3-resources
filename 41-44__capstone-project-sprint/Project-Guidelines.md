@@ -70,7 +70,7 @@ Students plagiarising another student's source code will be dismissed. This is a
 
 ## Capstone Project Proposals
 
-Instructors will review your GitHub repo wiki documents based on the submission order. You can view the queue to see when your project is being reviewed in the Capstone Project Proposal Responses Google Spreadsheet. [Link to Proposal Responses](https://docs.google.com/spreadsheets/d/1CkUpeCLUL0x7Oo8aVzzRiR3Kj55GHgHGbTXtsPoapp4/edit?resourcekey#gid=640829555)
+Instructors will review your GitHub repo wiki documents based on the submission order. 
 
 ## Required Github Wiki Documentation
 - Feature List/MVP List
