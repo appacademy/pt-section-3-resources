@@ -1,3 +1,22 @@
+# Full-Stack Project
+
+This will be your final project of the formal a/A curriculum. You will have four
+weeks to work on it. As you begin to plan for and design this application, there
+are a few parameters that you should follow:
+
+- Do create design documents before you begin writing code. Proper planning
+  saves time down the road. This could include wireframes, feature/MVPs list,
+  technologies used, etc.
+- Do get proposal approval from your TA or PTM before beginning the project
+- Do get creative - this project should not be a direct clone of an existing
+  site
+- Do NOT incorporate technologies that you are unfamiliar with - there will be
+  plenty of time in the job search to learn new things. This project is for
+  solidifying grasp of material learned over the last 40 weeks.
+- You must commit and push to GitHub a minimum of __twice daily__
+  - Once right before EOD
+  - Once before the start of class the next day
+
 ## Capstone Project Requirements
 Projects must have a minimum of **2 working CRUD features** and **base requirements** *(User Auth)* completed by final grade *(W23 D1)*. Only the live site will be used for grading.
 
@@ -13,7 +32,6 @@ Projects must have a minimum of **2 working CRUD features** and **base requireme
 6. *Bonus* Google API: Integration
 
 The first feature has to be **full** CRUD. and the second feature can be **3/4** CRUD or full CRUD. In the example above, the bookings feature has the create, read, and Delete. Ideally, update and delete perform the same action so this feature would be considered 3/4 CRUD.
-
 
 ### Error Validations
 A User should **NOT** be allowed to update or submit a form with blank or null input fields that are assumed to be required. All input fields within a form are assumed to be required and tested as such. If certain fields within a form are not required, then all required fields must be marked by a different CSS style or an asterisk (*) next to the label to indicate a required field.
@@ -70,7 +88,7 @@ Students plagiarising another student's source code will be dismissed. This is a
 
 ## Capstone Project Proposals
 
-Instructors will review your GitHub repo wiki documents based on the submission order. 
+Instructors will review your GitHub repo wiki documents based on the submission order.
 
 ## Required Github Wiki Documentation
 - Feature List/MVP List
