@@ -109,7 +109,7 @@ AWS S3 Bucket and return the new public URL if we're successful.
 
 ```python
 BUCKET_NAME = os.environ.get("S3_BUCKET")
-S3_LOCATION = f"http://{BUCKET_NAME}.s3.amazonaws.com/"
+S3_LOCATION = f"https://{BUCKET_NAME}.s3.amazonaws.com/"
 
 def upload_file_to_s3(file, acl="public-read"):
     try:
@@ -142,7 +142,7 @@ resources that have been deleted.  (we can use the `upload_file_to_s3` and
 
 ```python
 def remove_file_from_s3(image_url):
-    # AWS needs the image file name, not the URL, 
+    # AWS needs the image file name, not the URL,
     # so we split that out of the URL
     key = image_url.rsplit("/", 1)[1]
     try:
@@ -202,7 +202,7 @@ def upload_file_to_s3(file, acl="public-read"):
 
 
 def remove_file_from_s3(image_url):
-    # AWS needs the image file name, not the URL, 
+    # AWS needs the image file name, not the URL,
     # so we split that out of the URL
     key = image_url.rsplit("/", 1)[1]
     print(key)
@@ -271,9 +271,9 @@ image_routes = Blueprint("images", __name__)
 @login_required
 def upload_image():
     form = ImageForm()
- 
+
     if form.validate_on_submit():
-          
+
         image = form.data["image"]
         image.filename = get_unique_filename(image.filename)
         upload = upload_file_to_s3(image)

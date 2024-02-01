@@ -27,7 +27,7 @@ your application is handling different types of files, like album images and mp3
 song files in a music app, you might want to make a seperate S3 bucket for each
 type. To start out let's navigate to
 https://s3.console.aws.amazon.com/s3/home?region=us-east-1 and click on the
-`Create bucket` button after you have logged in.  
+`Create bucket` button after you have logged in.
 
 On the next page, we can start by entering a name for our bucket, and then
 choose a region (closest to you geographically is usually best).  Next change
@@ -53,7 +53,7 @@ style='width: 400px;' />
 
 We can go with the default selections for the rest of this page.  Go ahead and
 click the `Create Bucket` botton on the bottom and now your bucket should be set
-up!  
+up!
 
 
 ### Create a new User
@@ -100,7 +100,7 @@ Click the `Next` button on the bottom to continue, and give the policy whatever 
 Back in the tab where we are creating our user, we will want to refresh the `Permission policies` list (click the button next to the `Create policy` button, not the browser refresh button) and then find and select the policy we just created to attach to our user. If you don't see the policy, you can select `Customer managed` in the `Filter by Type` field, and your policy will show up. Click the `Next` button on the bottom to continue. There is no need to create tags, so you can click the `Create user` button on the bottom and now we have a user!
 
 
-Almost done with the AWS account setup, our last step is we need to generate our access keys for the user we just made.  
+Almost done with the AWS account setup, our last step is we need to generate our access keys for the user we just made.
 
 Find the user details page, it should look like the below image, and select the `Security credentials` tab where we will want to click on the `Create access key` button.
 
@@ -122,6 +122,5 @@ style='width: 400px;' />
 
 
 At this point our AWS S3 bucket and user have been created, time to start work on our server next...
-
 
 
